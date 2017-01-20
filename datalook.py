@@ -8,9 +8,6 @@ import matplotlib.pyplot
 def analyse (filename, outfile=None):
     data = numpy.loadtxt(fname=filename, delimiter=',')
     
-    """This function analyses the temperature data and plots it into three separate subplots which contain the average
-    maximum and minimum temperature data, respectively"""
-    
     # Create a wide figure to hold the subplots
     fig = matplotlib.pyplot.figure (figsize=(10.0, 3.0))
 
